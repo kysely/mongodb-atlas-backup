@@ -1,0 +1,29 @@
+{
+  "name": "mongodb-atlas-backup",
+  "version": "0.9.1",
+  "description": "The human way to mongodump and mongorestore your MongoDB Atlas cluster",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src/ --out-dir dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kysely/mongodb-atlas-backup"
+  },
+  "keywords": [
+    "mongodb",
+    "atlas",
+    "mongo",
+    "mongodump",
+    "mongorestore"
+  ],
+  "author": "Radek Kysely",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kysely/mongodb-atlas-backup/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
