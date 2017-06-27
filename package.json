@@ -1,6 +1,6 @@
 {
   "name": "mongodb-atlas-backup",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "The human way to mongodump and mongorestore your MongoDB Atlas cluster",
   "main": "dist/index.js",
   "scripts": {
